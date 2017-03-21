@@ -70,6 +70,14 @@
         android:layout_marginLeft="65dp"
         android:id="@+id/button4" >
     </Button>
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:textSize="18sp"
+        android:layout_marginLeft="65dp"
+        android:id="@+id/button5" >
+    </Button>
     <TextView
         android:text=""
         android:layout_width="wrap_content"

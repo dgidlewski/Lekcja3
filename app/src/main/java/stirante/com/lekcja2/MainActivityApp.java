@@ -51,10 +51,16 @@ public class MainActivityApp extends Activity {
             }
         });
 
-        Context context;
-        context = getApplicationContext();
-        Intent intent = new Intent(context,Obrazek.class);
-        startActivity(intent);
+        Button button5 = (Button) findViewById(R.id.button5);
+        button5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Context context;
+                context = getApplicationContext();
+                Intent intent = new Intent(context, Obrazek.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
 

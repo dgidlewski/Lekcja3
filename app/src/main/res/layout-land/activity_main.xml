@@ -70,6 +70,14 @@
         android:text="Zatwierdź!"
         android:id="@+id/button4" >
     </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SUBMIT"
+        android:textSize="18sp"
+        android:id="@+id/button5" >
+    </Button>
     <TextView
         android:text=""
         android:layout_width="wrap_content"
